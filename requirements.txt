@@ -1,0 +1,141 @@
+# ===========================
+# Core LangChain Ecosystem
+# ===========================
+langchain
+langchain-community
+langchain-openai
+langchain-mistralai
+langchain-core
+langsmith
+
+# ===========================
+# OpenAI
+# ===========================
+openai
+mistralai
+tiktoken
+
+# ===========================
+# API Framework
+# ===========================
+fastapi
+uvicorn[standard]
+slowapi
+
+# ===========================
+# Configuration Management
+# ===========================
+pydantic
+pydantic-settings
+python-dotenv
+
+# ===========================
+# Vector Databases
+# ===========================
+faiss-cpu
+chromadb
+
+# Uncomment if using Pinecone
+# pinecone
+
+# Uncomment if using Weaviate
+# weaviate-client
+
+# Uncomment if using Qdrant
+# qdrant-client
+
+# ===========================
+# Embeddings
+# ===========================
+sentence-transformers
+
+# ===========================
+# Document Loaders & Parsing
+# ===========================
+pypdf
+pymupdf
+unstructured
+python-docx
+docx2txt
+beautifulsoup4
+lxml
+markdown
+pandas
+openpyxl
+
+# ===========================
+# Async Support
+# ===========================
+aiofiles
+httpx
+requests
+
+# ===========================
+# Database
+# ===========================
+sqlalchemy
+alembic
+psycopg2-binary
+
+# ===========================
+# Caching
+# ===========================
+redis
+aioredis
+
+# ===========================
+# Logging & Monitoring
+# ===========================
+loguru
+prometheus-client
+
+# ===========================
+# Serialization
+# ===========================
+orjson
+
+# ===========================
+# Validation
+# ===========================
+email-validator
+
+# ===========================
+# Security
+# ===========================
+python-jose[cryptography]
+passlib[bcrypt]
+
+# ===========================
+# Production Server
+# ===========================
+gunicorn
+
+# ===========================
+# Testing
+# ===========================
+pytest
+pytest-asyncio
+pytest-cov
+
+# ===========================
+# Development Tools
+# ===========================
+black
+isort
+flake8
+mypy
+pre-commit
+
+# ===========================
+# Jupyter (Optional)
+# ===========================
+jupyter
+ipykernel
+
+# ===========================
+# Environment & Utilities
+# ===========================
+tenacity
+tqdm
+rich
+typer
